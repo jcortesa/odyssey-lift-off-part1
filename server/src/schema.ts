@@ -5,6 +5,9 @@ export const typeDefs = gql`
         tracksForHome: [Track!]!
     }
 
+    """
+    Information about a track
+    """
     type Track {
         id: ID!
         title: String!
